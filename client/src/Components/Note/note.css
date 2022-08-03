@@ -1,0 +1,48 @@
+.note
+{
+    background: white;
+    width: 240px;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 15px;
+    float: left;
+
+}
+
+.note h2
+{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.note p
+{
+    font-size: 0.8rem;
+    margin-bottom: 6px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    
+}
+
+.note button
+{
+    position: relative;
+    float: right;
+    color: black;
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+    margin-left: 10px;
+}
+
+.note i
+{
+    transform: 0.5s ease-in;
+}
+
+.note i:hover
+{
+    color:red;
+}
